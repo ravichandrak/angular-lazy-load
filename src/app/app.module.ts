@@ -11,7 +11,7 @@ const routes:Routes = [
     component : HomeComponent
   },
   {
-    path : 'viewdetails',
+    path : 'gallery',
     loadChildren: () => import('./viewdetails/viewdetails.module').then(m => m.ViewdetailsModule)
   },
   {
